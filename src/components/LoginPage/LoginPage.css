@@ -1,0 +1,214 @@
+body{
+    background-color: #fafafa;
+}
+.loginpage__container{
+    margin: 32px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.loginpage__grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginpage__main{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.loginpage__logo{
+    width: 175px;
+    margin-top: 25px;
+}
+
+.loginpage__logincomponent{
+    width: 350px;
+    padding-bottom: 25px;
+    border: 1px solid #dbdbdb;
+    margin-top: 25px;
+    text-align: center;
+    background: white;
+
+}
+
+.loginpage__login{
+    position: relative;
+}
+
+
+
+.loginpage__floating {
+    position: absolute;
+    pointer-events: none;
+    left: 50px;
+    top: 17px;
+    transition: 0.2s ease all;
+    font-size: 14px;
+    color: rgba(var(--f52,142,142,142),1);
+}
+.loginpage__input:focus ~ .loginpage__floating{
+    top:7px;
+    font-size:12px;
+    opacity: 1; 
+    transition: all 0.4s ease-out; 
+  }
+.loginpage__input{
+    width: 258px;
+    height: 36px;
+    margin: 5px;
+    border: 1px solid #DBDBDB;
+    background: #fafafa;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.loginpage__login-btn{
+    width: 270px;
+    height: 36px;
+    border-radius: 5px;
+    font-weight: bold;
+    border : 1px solid #0395f6;
+    background: #0395f6;
+    color: white;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.loginpage__or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.loginpage__or--line{
+    width: 110px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.loginpage__or--or{
+    margin:15px;
+    font-weight: bold;
+    color: #8e8e8e;
+}
+
+.loginpage__fb{
+    color:#395187;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 14px;
+
+}
+
+.loginpage__fb img{
+   margin-right: 5px;
+}
+
+.loginpage__fp{
+    color: rgba(var(--fe0,0,55,107),1);
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 12px;
+    text-align: center;
+}
+.loginpage__footer-signup{
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 12px;
+    line-height: 16px;
+    margin: 10px 40px;
+    text-align: center;
+}
+
+.loginpage__switchbox{
+    margin-top: 10px;
+    width: 350px;
+    height: 56px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.loginpage__switchbox--signup span{
+    font-weight: bold;
+    color: #0395f6;
+    cursor: pointer;
+
+}
+.loginpage__switchbox--login span{
+    font-weight: bold;
+    color: #0395f6;
+    cursor: pointer;
+}
+
+.loginpage__downloadapp{
+    height: 105px;
+    width: 350px;
+    text-align: center;
+}
+
+.loginpage__downloadapp--text{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.loginpage__downloadapp--img-container{
+ margin-top: 20px;
+}
+
+.loginpage__downloadapp--img{
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.loginpage__footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-size: 12px;
+    color: #949494;
+    font-weight: 600;
+}
+.loginpage__footer--list{
+}
+.loginpage__footer--list ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.loginpage__footer--list ul li{
+    list-style: none;
+    margin: 0px 5px;
+}
+
+.loginpage__footer--cw{
+    }
+
+.loginpage__footer--cw ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.loginpage__footer--cw ul li{
+    list-style: none;
+}
+
+@media only screen and (max-width: 875px) {
+    .hide-on-xs {
+      display:none;
+    }
+  }
